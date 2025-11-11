@@ -12,6 +12,7 @@ Il existe deux mécaniques pour intéragir avec le stockage et le système de fi
   
   ```bash
   docker volume create mydata
+  # Docker crée un volume géré par le moteur Docker et le stocke dans un emplacement interne, généralement /var/lib/docker/volumes/mydata/_data/
   # On spécifie qu'on veut utiliser le volume mydata, et le monter à l'emplacement /data dans le container
   # le paramètre --rm indique que le container sera supprimé à la fin de l'exécution de la commande "touch ..."
   # Ici, on crée un fichier "volumefile" dans le dossier monté (docker volume)
