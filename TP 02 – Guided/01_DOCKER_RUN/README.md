@@ -39,7 +39,7 @@ Par la suite, vous serez amené à exécuter des commandes à l'intérieur de vo
   CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                NAMES
   e2fa51b6d935        /zelda     "nginx -g 'daemon of…"   2 seconds ago       Up 1 second         0.0.0.0:80->80/tcp   trusting_neumann
   ```
-- Vous pouvez également ouvrir votre navigateur à l'adresse http://localhost:80 ou depuis votre machine hôte http://192.168.56.5:80 (ou simplement http://192.168.56.5), le site présenté en screenshot au dessus devrai s'afficher.
+- Vous pouvez également ouvrir votre navigateur à l'adresse http://localhost:80 ou depuis votre machine hôte http://192.168.56.5:80, le site présenté en screenshot au dessus devrai s'afficher.
 
 ### Seconde partie: Exécuter des commandes dans le container
 
