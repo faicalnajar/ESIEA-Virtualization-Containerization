@@ -99,7 +99,7 @@ Vous allez à présent créer une seconde page `html`, servie par le serveur `ng
   # Ajoute la chaine de caractère '<h1>Hello from ....' dans un nouveau fichier situé à /usr/share/nginx/html/test.html
   echo '<h1>Hello from new page</h1>' > /usr/share/nginx/html/test.html
   ```
-- Pour vérifier que votre commande a été effectuée avec succès, ouvez votre navigateur à l'adresse http://localhost:80/test.html, le text `Hello from new page` devrait s'afficher.
+- Pour vérifier que votre commande a été effectuée avec succès, ouvez votre navigateur à l'adresse http://localhost:80/test.html ou depuis votre machine hôte http://192.168.56.5:80/test.html, le text `Hello from new page` devrait s'afficher.
 - Pour quitter la session terminale ouverte dans votre container, utilisez simplement la commande `exit`.
 - Pour supprimer le container, vous pouvez utiliser la commande `docker rm <container-id>` avec le container-id récupéré dans la commande `docker ps`.
 
