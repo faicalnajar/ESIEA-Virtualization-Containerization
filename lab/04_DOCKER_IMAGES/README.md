@@ -1,6 +1,6 @@
 # LAB - Docker images
 
-Dans ce LAB, vous vous familiariserez avec les ***Dockerfile*** : un outil vous permettant de `packager` vos applications dans des images docker réutilisables.
+Dans ce **LAB**, vous vous familiariserez avec les ***Dockerfile*** : un outil vous permettant de `packager` vos applications dans des images docker réutilisables.
 
 Grâce aux `Dockerfiles`, vous serez en mesure de figer votre application à un instant T, dans une image docker qui vous servira par la suite à créer des containers.
 
@@ -23,7 +23,7 @@ Ainsi, le jour où vous serez amené face à des problématiques de `mise en pro
 
 ## Exercice: Partie 1
 
-Pour ce LAB:
+**Pour ce LAB:**
 
 - [Utilisez le Dockerfile ici](./Dockerfile)
 - L'application utilisée pour créer l'image docker [se trouve ici](./app): Simplement une ***API Back-end*** `express.js` (node.js)
