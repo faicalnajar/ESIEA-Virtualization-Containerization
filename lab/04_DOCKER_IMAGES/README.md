@@ -10,7 +10,7 @@ Jusqu'ici, vous avez appris à utiliser les différentes ressources `docker`, po
 - Stockage (volume)
 - Réseau Network
 
-Tout cela, en utilisant des `images docker` proposées par d'autres utilisateurs (`nginx`, `node:alpine`, `madjidtaoualit/uno`). Maintenant, il est temps d'apprendre à créer vos propres images.
+Tout cela, en utilisant des `images docker` proposées par d'autres utilisateurs (`nginx`, `node:alpine`). Maintenant, il est temps d'apprendre à créer vos propres images.
 
 L'objectif de ce LAB est de vous apprendre à utiliser le fichier `Dockerfile` pour construire des images docker à partir d'une application, vous permettant ainsi de porter cette application en tout simplicité vers de multiples environnements.
 
@@ -63,7 +63,7 @@ Une fois ces critères remplis dans votre fichier Dockerfile, pour vérifier que
 
 ## Exercice: Partie 2
 
-Dans cette seconde partie, vous allez construire l'image `madjidtaoualit/uno`.
+Dans cette seconde partie, vous allez construire l'image `esiea/uno`.
 
 Utiliser la commande `npm run build` pour générer les fichiers statiques (`html`, `js`, `png`, `css`) dans le dossier `build`.
 
@@ -110,7 +110,7 @@ J'ai décidé d'utiliser un exemple d'une application en `golang` pour ne pas vo
 
 - Téléchargez ou installez le projet qui contient le code du site uno [est disponible sur ce repo Github](https://github.com/mtbinds/DOCKER_EXAMPLE_2)
 - `cd` dans le dossier contenant le projet uno
-- Créez un fichier `Dockerfile`, et complétez afin de pouvoir créer l'image `madjidtaoualit/uno`.
+- Créez un fichier `Dockerfile`, et complétez afin de pouvoir créer l'image `esiea/uno`.
 
 Pour lancer le build à partir d'un Dockerfile, placez vous dans le même dossier et lancez:
 
